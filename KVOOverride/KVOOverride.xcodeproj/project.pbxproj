@@ -15,6 +15,7 @@
 		BC7D68C82239FB0800104FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D68C72239FB0800104FE8 /* main.m */; };
 		BC7D68D22239FB0800104FE8 /* KVOOverrideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D68D12239FB0800104FE8 /* KVOOverrideTests.m */; };
 		BC7D68DD2239FB0800104FE8 /* KVOOverrideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D68DC2239FB0800104FE8 /* KVOOverrideUITests.m */; };
+		BC7D68EC223B73F400104FE8 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D68EB223B73F400104FE8 /* NSObject+KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BC7D68D82239FB0800104FE8 /* KVOOverrideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOOverrideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7D68DC2239FB0800104FE8 /* KVOOverrideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOOverrideUITests.m; sourceTree = "<group>"; };
 		BC7D68DE2239FB0800104FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7D68EA223B73F400104FE8 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		BC7D68EB223B73F400104FE8 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				BC7D68C32239FB0800104FE8 /* LaunchScreen.storyboard */,
 				BC7D68C62239FB0800104FE8 /* Info.plist */,
 				BC7D68C72239FB0800104FE8 /* main.m */,
+				BC7D68EA223B73F400104FE8 /* NSObject+KVO.h */,
+				BC7D68EB223B73F400104FE8 /* NSObject+KVO.m */,
 			);
 			path = KVOOverride;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7D68EC223B73F400104FE8 /* NSObject+KVO.m in Sources */,
 				BC7D68BD2239FB0500104FE8 /* ViewController.m in Sources */,
 				BC7D68C82239FB0800104FE8 /* main.m in Sources */,
 				BC7D68BA2239FB0500104FE8 /* AppDelegate.m in Sources */,
