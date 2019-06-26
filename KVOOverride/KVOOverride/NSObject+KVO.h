@@ -10,7 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^ObservingBlock)(id observerObject, NSString *observerKey, id OldValue, id newValue);
+
 @interface NSObject (KVO)
+
+- (void)addObserver:(NSObject *)observer forKey:(NSString *)key withBlock:(ObservingBlock)block;
+
 
 @end
 

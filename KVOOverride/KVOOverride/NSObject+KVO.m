@@ -7,7 +7,14 @@
 //
 
 #import "NSObject+KVO.h"
+#import <objc/runtime.h>
+#import <objc/message.h>
 
 @implementation NSObject (KVO)
+
+
+- (void)addObserver:(NSObject *)observer forKey:(NSString *)key withBlock:(ObservingBlock)block {
+    
+}
 
 @end
